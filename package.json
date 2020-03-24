@@ -1,0 +1,27 @@
+{
+  "name": "proxy-fec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "server": "node server/server.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obnoxious-hippopotamus/review-proxy-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obnoxious-hippopotamus/review-proxy-server/issues"
+  },
+  "homepage": "https://github.com/obnoxious-hippopotamus/review-proxy-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
