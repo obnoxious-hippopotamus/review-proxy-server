@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+* {
+font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+font-size: 13px;
+}
+
+h2, h3 {
+font-weight: 650;
+}
+
+.flex {
+display: flex;
+align-items: center;
+}
+
+.blue {
+color: rgb(9,79,179);
+}
+
+.percentage {
+margin: 0px;
+margin-top: 2px;
+}
+
+.rm-margin {
+margin: 0px !important;
+}
+
+.padding-left {
+padding-left: 20px;
+}
+
+.sidebar {
+padding: 0px 40px;
+}
+
+.main {
+padding-left: 15px; 
+padding-right: 100px;
+}
+
+.reviewItem {
+padding-top: 20px;
+}
+
+.authorImg {
+width: 40px;
+height: 40px;
+border-radius: 50% 50%;
+}
+
+.author {
+padding-left: 10px;
+}
+
+.small-grey {
+font-size: 12px;
+color: rgb(107, 107, 107);
+}
+
+.verified {
+color: rgb(185,66,0)
+}
+
+.helpfulBtn {
+padding: 3px 12px;
+font-size: 14px;
+border-radius: 2px;
+}
+
+.placeholder {
+width: 100%;
+padding: 20px 0px;
+}
+
+.writeReviewBtn {
+width: 100%;
+padding: 7px 0px;
+border-radius: 3px;
+font-size: 13px;
+margin-bottom: 20px;
+}
+
+.tags {
+display: flex;
+}
+
+.tag {
+background-color: rgb(206,226,229);
+padding: 5px;
+border-bottom: 1px solid black;
+width: 15%;
+margin-right: 7px;
+text-align: center;
+flex-wrap: wrap;
+}
+
+.thank-you {
+color: rgb(32,112,25);
+font-size: 12px;
+}
+
+#recommended, body {
+background-color:#0f171e;
+margin: auto;
+}
+
+.wrapper {
+display: grid;
+grid-template-columns: 12% 50% 38%;
+grid-template-rows:  240px 100px 200px 200px; 
+}
+
+
+
+
+/********************HEADER FOR SECTION TITLES*********************/
+.mainHeader {
+font-family: "Amazon Ember Regular",Arial,sans-serif;
+font-size: 21px;
+line-height: 24px;
+color: #fff;
+text-rendering:optimizelegibility;
+-webkit-font-smoothing:antialiased;
+padding-left: 40px;
+}
+
+
+
+/***************************CONTAINER FOR MOVIE POSTER RENDER**************************/
+.movieWheel { 
+background-color:#0f171e;
+grid-column: 1/4;
+padding-left: 40px;
+
+flex-basis:80%;
+display: flex;
+flex-wrap: wrap;
+
+
+position: relative;
+    max-width: 100%;
+    /* border: 1px solid black; */
+    overflow-x: hidden;
+overflow-y: hidden;
+/* -webkit-overflow-scrolling: touch; */
+}
+
+
+
+
+/*ELEMENT TO RENDER EACH MOVIE POSTER DYNAMICALLY*/
+.eachMovie {
+flex-basis: 10%;
+margin: 5px;
+overflow-x: hidden;
+    overflow-y: hidden;
+
+white-space: nowrap;
+user-select: none;
+
+flex-direction: column;
+list-style: none;
+
+cursor: pointer;
+box-shadow: 0 10px 28px -7px rgba(0,0,0,0.1);
+}
+
+.menu-item.active {
+border: 1px green solid;
+}
+
+.moviePoster {
+width: auto;
+/* margin-left: 5px;
+margin-bottom: 5px; */
+/* display: flex; */
+height: 200px;
+/* box-sizing: border-box; */
+border-radius: 3px;
+display: inline-block;
+}
+
+
+/**********************OUTER DIV FOR DESCRIPTIONS ELEMENTS*************************/
+.description {
+background-color:#0f171e;
+grid-column: 2/4;
+border: white solid 1px;
+color: white;
+}
+/*INNER DIV FOR DESCRIPTIONS TITLE, MAY STREAMLINE WITH UNIVERSAL HEADER CLASS*/
+.moreDetailsHeader {
+background-color: #0f171e;
+/* border: white solid 1px; */
+font-family: "Amazon Ember Regular",Arial,sans-serif;
+font-size: 21px;
+line-height: 24px;
+color: #fff;
+grid-column: 1/4;
+padding-top: 75px;
+padding-left: 40px;
+text-rendering:optimizelegibility;
+-webkit-font-smoothing:antialiased;
+} 
+
+
+/*********************OUTER DIV FOR THE DETAILS AND DESCRIPTIONS OF THE MOVIES*********************/
+.details {
+background-color: #0f171e;
+border: white solid 1px;
+color: #fff;
+padding-right: 10px;
+}
+
+/*INNDER DIV OF PROPERTIES*/
+.detailsProperties {
+list-style-type: none;
+color:rgb(129, 151, 164);
+font-family:"Amazon Ember Regular", Arial, sans-serif;
+font-size:17px;
+font-weight:700;
+height:auto;
+line-height:25px;
+text-size-adjust:100%;
+white-space:nowrap;
+width:auto;
+word-break:break-word;
+-webkit-font-smoothing:antialiased;
+}
+
+/*INNDER DIV OF VALUES*/
+.detailsValues {
+list-style-type: none;
+color:rgb(129, 151, 164);
+font-family:"Amazon Ember Regular", Arial, sans-serif;
+font-size:17px;
+height:auto;
+line-height:25px;
+text-size-adjust:100%;
+white-space: normal;
+width:auto;
+word-break:break-word;
+-webkit-font-smoothing:antialiased;
+grid-column: 2/4;
+}
+
+
+/*HYPERLINK STYLIZING*/
+a {
+color:#79B8F3;
+text-decoration: none;
+
+}
+
+
+/***************OUTER DIV FOR FOOTER*****************/
+.footer {
+background-color:#0f171e;
+grid-column: 1 / 4;
+}
+
+/*DVD BUTTON AND HOVER STYLING*/
+#button1 {
+margin-left: 40px;
+display: inline-block;
+background-color: #c4cacf;
+border-radius: 5px;
+text-align: center;
+font-size: 15px;
+padding: 10px;
+width: 100px; 
+}
+#button1 span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+#button1 span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+#button1:hover {
+background-color: #dfdbdf;
+}
+#button1:hover span {
+padding-right: 25px;
+}
+#button1:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+/*BLURAY BUTTON AND HOVER STYLING*/
+#button2 {
+/* margin-left: 140px; */
+display: inline-block;
+background-color: #c4cacf;
+text-align: center;
+border-radius: 5px;
+font-size: 15px;
+padding: 10px;
+width: 100px;
+margin-left: 10px; 
+}
+#button2 span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+#button2 span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+#button2:hover {
+background-color: #e0dce0;
+}
+#button2:hover span {
+padding-right: 25px;
+}
+#button2:hover span:after {
+opacity: 1;
+right: 0;
+}  
