@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 
 * {
-font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Sans JP', sans-serif !important;
 }
 
 p {
@@ -19,6 +19,10 @@ align-items: center;
 
 .blue {
 color: rgb(9,79,179);
+}
+
+.review-app {
+    background-color: white;
 }
 
 .percentage {
@@ -120,7 +124,6 @@ grid-template-rows:  240px 100px 200px 200px;
 
 /********************HEADER FOR SECTION TITLES*********************/
 .mainHeader {
-font-family: "Amazon Ember Regular",Arial,sans-serif;
 font-size: 21px;
 line-height: 24px;
 color: #fff;
@@ -176,11 +179,7 @@ border: 1px green solid;
 
 .moviePoster {
 width: auto;
-/* margin-left: 5px;
-margin-bottom: 5px; */
-/* display: flex; */
 height: 200px;
-/* box-sizing: border-box; */
 border-radius: 3px;
 display: inline-block;
 }
@@ -196,8 +195,6 @@ color: white;
 /*INNER DIV FOR DESCRIPTIONS TITLE, MAY STREAMLINE WITH UNIVERSAL HEADER CLASS*/
 .moreDetailsHeader {
 background-color: #0f171e;
-/* border: white solid 1px; */
-font-family: "Amazon Ember Regular",Arial,sans-serif;
 font-size: 21px;
 line-height: 24px;
 color: #fff;
@@ -221,7 +218,6 @@ padding-right: 10px;
 .detailsProperties {
 list-style-type: none;
 color:rgb(129, 151, 164);
-font-family:"Amazon Ember Regular", Arial, sans-serif;
 font-size:17px;
 font-weight:700;
 height:auto;
@@ -237,7 +233,6 @@ word-break:break-word;
 .detailsValues {
 list-style-type: none;
 color:rgb(129, 151, 164);
-font-family:"Amazon Ember Regular", Arial, sans-serif;
 font-size:17px;
 height:auto;
 line-height:25px;
