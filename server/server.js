@@ -13,12 +13,12 @@ app.use(express.static(path.join(__dirname, '../client/public')));
 
 //JIM'S ROUTES ===============
 
-app.use('/api/movie', createProxyMiddleware({
+app.use('/api/header/movie', createProxyMiddleware({
     target: 'http://localhost:3001',
     changeOrigin: true,
 }));
 
-app.use('/api/titles', createProxyMiddleware({
+app.use('/api/header/titles', createProxyMiddleware({
     target: 'http://localhost:3001',
     changeOrigin: true,
 }));

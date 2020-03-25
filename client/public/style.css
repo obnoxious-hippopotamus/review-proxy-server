@@ -4,8 +4,6 @@
 font-family: 'Noto Sans JP', sans-serif !important;
 }
 
-<<<<<<< HEAD
-=======
 p {
 font-size: 13px;
 }
@@ -24,8 +22,8 @@ color: rgb(9,79,179);
 }
 
 .review-app-container {
-    background-color: white;
-    padding-top: 10px;
+    background-color: white !important;
+    padding-top: 10px !important;
 }
 
 .percentage {
@@ -111,7 +109,6 @@ color: rgb(32,112,25);
 font-size: 12px;
 }
 
->>>>>>> 6c3668e5258eb12de32f0d9ca278327aeacd1c09
 #recommended, body {
 background-color:#0f171e;
 margin: auto;
@@ -440,3 +437,144 @@ p {
     color: rgb(32,112,25);
     font-size: 12px;
     }
+
+    body {
+        background-color: #0f171e;
+        /* padding-left: 50px; */
+      }
+      
+      h1 {
+        color: #FFFFFF;
+        font-size: 30px
+      }
+      
+      
+      h2,
+      p {
+        color: #FFFFFF;
+        font-size: 17px ;
+      }
+      
+      h3 {
+        margin: 0px 0px 0px 0px;
+        color: #8197A4;
+      }
+      
+      div {
+        margin: 0px;
+      }
+      
+      img {
+        width: 30%;
+        padding: 0px 50px;
+        margin: 50px, 0px, 50px, 50px;
+      }
+      
+      img.imdb {
+        padding: 0px;
+      }
+      
+      .logo {
+        color: #00a0d6;
+      }
+      
+      #vote {
+        color: #79B8F3;
+        font-size: 17px;
+       }
+      
+      .imdb {
+        display: flex;
+        width: 50px;
+        height: auto;
+      }
+      
+      .ratings {
+        display: flex;
+        align-items: center;
+      }
+      
+      .flexRow {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+      }
+      
+      .otherinfo {
+        display: flexbox;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+      }
+      
+      .extra {
+        font-weight: normal;
+        color: #79B7F3;
+        padding: 0px 0px 0px 20px;
+        font-size: 17px;
+      }
+      
+      .marginLeft {
+        margin-left: 8px;
+      }
+      
+      .noMargin {
+        margin: 0px;
+      }
+      
+      .poster {
+        display: flex;
+        float: right;
+        margin-bottom: 50px
+      }
+      
+      .container {
+        margin: 0px;
+        background: linear-gradient(to top right, rgba(15, 23, 30, 1) 25%, rgba(255,0,0,0));
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+      
+      .top {
+        padding-top: 20px;
+      }
+      
+      .subtext {
+        padding: 0px;
+      }
+      
+      .header {
+        display: flex;
+        flex-flow: row;
+      }
+      
+      .drop {
+        padding: 50px 0px;
+      }
+      
+      button {
+        font-size: 15px;
+        padding:14px 20px;
+        margin:20px 10px 20px 0px;
+        background: #425265;
+        color:#FFFFFF;
+        cursor:pointer;
+        transition:all .3s;
+        border: none;
+        border-radius: 5px;
+      }
+      
+      button:hover {
+        background:#8197A4;
+        color:#fff;
+      }
+      
+      div.inline {
+        display: inline;
+      }
+      
+      .watchNow {
+        background: #00a0d6;
+      }
