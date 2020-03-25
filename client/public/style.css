@@ -4,6 +4,8 @@
 font-family: 'Noto Sans JP', sans-serif !important;
 }
 
+<<<<<<< HEAD
+=======
 p {
 font-size: 13px;
 }
@@ -109,6 +111,7 @@ color: rgb(32,112,25);
 font-size: 12px;
 }
 
+>>>>>>> 6c3668e5258eb12de32f0d9ca278327aeacd1c09
 #recommended, body {
 background-color:#0f171e;
 margin: auto;
@@ -332,3 +335,108 @@ padding-right: 25px;
 opacity: 1;
 right: 0;
 }  
+
+
+p {
+    font-size: 13px;
+    }
+    
+    h2, h3 {
+    font-weight: 650;
+    }
+    
+    .flex {
+    display: flex;
+    align-items: center;
+    }
+    
+    .blue {
+    color: rgb(9,79,179);
+    }
+    
+    .review-app {
+        background-color: white;
+    }
+    
+    .percentage {
+    margin: 0px;
+    margin-top: 2px;
+    }
+    
+    .rm-margin {
+    margin: 0px !important;
+    }
+    
+    .padding-left {
+    padding-left: 20px;
+    }
+    
+    .sidebar {
+    padding: 0px 40px;
+    }
+    
+    .main {
+    padding-left: 15px; 
+    padding-right: 100px;
+    }
+    
+    .reviewItem {
+    padding-top: 20px;
+    }
+    
+    .authorImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50%;
+    }
+    
+    .author {
+    padding-left: 10px;
+    }
+    
+    .small-grey {
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+    }
+    
+    .verified {
+    color: rgb(185,66,0)
+    }
+    
+    .helpfulBtn {
+    padding: 3px 12px;
+    font-size: 14px;
+    border-radius: 2px;
+    }
+    
+    .placeholder {
+    width: 100%;
+    padding: 20px 0px;
+    }
+    
+    .writeReviewBtn {
+    width: 100%;
+    padding: 7px 0px;
+    border-radius: 3px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    }
+    
+    .tags {
+    display: flex;
+    }
+    
+    .tag {
+    background-color: rgb(206,226,229);
+    padding: 5px;
+    border-bottom: 1px solid black;
+    width: 15%;
+    margin-right: 7px;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+    
+    .thank-you {
+    color: rgb(32,112,25);
+    font-size: 12px;
+    }
