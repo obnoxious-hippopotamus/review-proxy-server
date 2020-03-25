@@ -9,7 +9,7 @@ const path = require('path');
 app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));
-app.use(express.static(path.join(__dirname, '../', '/client/public')));
+app.use(express.static(path.join(__dirname, '../client/public')));
 
 //JIM'S ROUTES ===============
 
@@ -26,22 +26,22 @@ app.use('/api/titles', createProxyMiddleware({
 //BRANDON'S ROUTES ===========
 
 app.use('/api/reviews/sort/*', createProxyMiddleware({
-    target: 'http://localhost:3002',
+    target: 'http://localhost:3005',
     changeOrigin: true,
 }));
 
 app.use('/api/reviews', createProxyMiddleware({
-    target: 'http://localhost:3002',
+    target: 'http://localhost:3005',
     changeOrigin: true,
 }));
 
 app.use('/api/reviews/*', createProxyMiddleware({
-    target: 'http://localhost:3002',
+    target: 'http://localhost:3005',
     changeOrigin: true,
 }));
 
 app.use('/api/movies/*', createProxyMiddleware({
-    target: 'http://localhost:3002',
+    target: 'http://localhost:3005',
     changeOrigin: true,
 }));
 

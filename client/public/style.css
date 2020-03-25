@@ -21,8 +21,9 @@ align-items: center;
 color: rgb(9,79,179);
 }
 
-.review-app {
+.review-app-container {
     background-color: white;
+    padding-top: 10px;
 }
 
 .percentage {
