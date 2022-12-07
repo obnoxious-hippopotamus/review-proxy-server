@@ -19,7 +19,7 @@
   "homepage": "https://github.com/obnoxious-hippopotamus/review-proxy-server#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "http-proxy-middleware": "^1.0.3",
     "morgan": "^1.10.0",
     "react": "^16.13.1",
